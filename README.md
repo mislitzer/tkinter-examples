@@ -31,6 +31,24 @@ window.mainloop()
 ## Tkinter Dialogs
 
 ## Tkinter Checkbutton
+```python
+import tkinter as tk
+
+window = tk.Tk()
+window.title("Checkbutton Example")
+window.geometry("280x50")
+
+state = tk.IntVar()
+check_btn = tk.Checkbutton(window, text="Check Button Example", variable=state)
+check_btn.pack()
+
+window.mainloop()
+
+```
+
+### Screenshot
+![Tkinter Checkbutton Example](tkinter_check-button.png "Tkinter Checkbutton Example")
+
 
 ## Tkinter LabelFrame and RationButton
 
