@@ -39,7 +39,7 @@ window.title("Checkbutton Example")
 window.geometry("280x50")
 
 state = tk.IntVar()
-check_btn = tk.Checkbutton(window, text="Check Button Example", variable=state)
+check_btn = tk.Checkbutton(window, text="Check Button Example Blablabla", variable=state)
 check_btn.pack()
 
 window.mainloop()
